@@ -3,5 +3,6 @@
   imports = [
     ./general.nix
     ./plugins.nix
+    ./keymaps.nix
   ];
 }
