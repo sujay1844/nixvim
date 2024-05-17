@@ -1,7 +1,10 @@
 {
 	colorschemes.onedark.enable = true;
 	plugins = {
-		lualine.enable = true;
+		lualine = {
+			enable = true;
+			theme = "onedark";
+		};
 		nvim-autopairs.enable = true;
 		comment.enable = true;
 		gitsigns.enable = true;
@@ -24,5 +27,6 @@
 		};
 		lint.enable = true;
 		neoscroll.enable = true;
+		transparent.enable = true;
 	};
 }
