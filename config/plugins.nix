@@ -1,10 +1,7 @@
 {
 	colorschemes.onedark.enable = true;
 	plugins = {
-		lualine = {
-			enable = true;
-			theme = "onedark";
-		};
+		lualine.enable = true;
 		nvim-autopairs.enable = true;
 		comment.enable = true;
 		gitsigns.enable = true;
