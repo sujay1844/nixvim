@@ -23,5 +23,6 @@
 			indent = true;
 		};
 		lint.enable = true;
+		neoscroll.enable = true;
 	};
 }
