@@ -25,5 +25,11 @@
 		lint.enable = true;
 		neoscroll.enable = true;
 		transparent.enable = true;
+		oil = {
+			enable = true;
+			settings = {
+				default_file_explorer = true;
+			};
+		};
 	};
 }

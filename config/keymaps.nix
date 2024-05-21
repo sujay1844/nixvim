@@ -16,5 +16,10 @@
 			key = "<leader>fr";
 			action = "<Cmd>Telescope oldfiles<CR>";
 		}
+		{
+			mode = "n";
+			key = "-";
+			action = "<Cmd>Oil<CR>";
+		}
 	];
 }
