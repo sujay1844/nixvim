@@ -12,6 +12,7 @@
 			folding = true;
 			indent = true;
 		};
+		treesitter-context.enable = true;
 		lint.enable = true;
 		neoscroll.enable = true;
 		transparent.enable = true;
