@@ -15,7 +15,6 @@
 		treesitter-context.enable = true;
 		treesitter-refactor = {
 			enable = true;
-			highlightCurrentScope.enable = true;
 			highlightDefinitions = {
 				enable = true;
 				clearOnCursorMove = true;
@@ -23,12 +22,6 @@
 			smartRename = {
 				enable = true;
 				keymaps.smartRename = "grr";
-			};
-			navigation = {
-				enable = true;
-				keymaps = {
-					gotoDefinition = "gd";
-				};
 			};
 		};
 		lint.enable = true;

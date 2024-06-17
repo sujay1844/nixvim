@@ -21,5 +21,10 @@
 			key = "-";
 			action = "<Cmd>Oil<CR>";
 		}
+		{
+			mode = "n";
+			key = "gd";
+			action = "<Cmd>Telescope lsp_definitions<CR>";
+		}
 	];
 }
