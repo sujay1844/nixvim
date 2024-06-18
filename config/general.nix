@@ -51,13 +51,16 @@ in {
     }
     {
       event = [ "BufWritePre" ];
-      pattern = [ "*" ];
+      pattern = [
+        "javascript,javascriptreact,typescript,typescriptreact,nix,css,go,python"
+      ];
       command = "lua vim.lsp.buf.format()";
     }
     {
       event = [ "FileType" ];
-      pattern =
-        [ "javascript,javascriptreact,typescript,typescriptreact,nix,css" ];
+      pattern = [
+        "javascript,javascriptreact,typescript,typescriptreact,nix,css,go,python"
+      ];
       command = "setlocal tabstop=2 softtabstop=2 shiftwidth=2";
     }
   ];
