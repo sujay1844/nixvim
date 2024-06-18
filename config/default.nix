@@ -1,4 +1,13 @@
 {
   # Import all your configuration modules here
-  imports = [ ./general.nix ./plugins.nix ./lsp.nix ./cmp.nix ./keymaps.nix ];
+  imports = [
+    ./cmp.nix
+    ./general.nix
+    ./keymaps.nix
+    ./lsp.nix
+    ./none-ls.nix
+    ./plugins.nix
+    ./telescope.nix
+    ./treesitter.nix
+  ];
 }

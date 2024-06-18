@@ -31,5 +31,15 @@
       key = "<leader>ca";
       action = "<Cmd>lua vim.lsp.buf.code_action()<CR>";
     }
+    {
+      mode = "n";
+      key = "<C-\\>";
+      action = "<Cmd>ToggleTerm<CR>";
+    }
+    {
+      mode = "t";
+      key = "<C-\\>";
+      action = "<Cmd>ToggleTerm<CR>";
+    }
   ];
 }
