@@ -29,6 +29,7 @@ in {
   };
   clipboard.register = "unnamedplus";
 
+  autoGroups = { lspformat = { clear = true; }; };
   autoCmd = [
     {
       # Persistent undo
@@ -51,9 +52,8 @@ in {
     }
     {
       event = [ "BufWritePre" ];
-      pattern = [
-        "javascript,javascriptreact,typescript,typescriptreact,nix,css,go,python"
-      ];
+      pattern = [ "*" ];
+      group = "lspformat";
       command = "lua vim.lsp.buf.format()";
     }
     {
@@ -68,6 +68,10 @@ in {
     Rename = { command = "lua vim.lsp.buf.rename()"; };
     Tab2 = { command = "setlocal tabstop=2 softtabstop=2 shiftwidth=2"; };
     Tab4 = { command = "setlocal tabstop=4 softtabstop=4 shiftwidth=4"; };
+    LspFormatEnable = {
+      command = "autocmd lspformat BufWritePre * lua vim.lsp.buf.format()";
+    };
+    LspFormatDisable = { command = "autocmd! lspformat"; };
   };
 
 }
