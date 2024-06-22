@@ -26,6 +26,7 @@ in {
     expandtab = true;
 
     undofile = true;
+    foldenable = false;
   };
   clipboard.register = "unnamedplus";
 
