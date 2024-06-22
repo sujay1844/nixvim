@@ -28,6 +28,11 @@
     }
     {
       mode = "n";
+      key = "<leader>t";
+      action = "<Cmd>Telescope builtin<CR>";
+    }
+    {
+      mode = "n";
       key = "<leader>ca";
       action = "<Cmd>lua vim.lsp.buf.code_action()<CR>";
     }
