@@ -31,5 +31,15 @@
       key = "<A-l>";
       action = "<C-w>l";
     }
+    {
+      mode = "n";
+      key = "[q";
+      action = ":cprev<CR>";
+    }
+    {
+      mode = "n";
+      key = "]q";
+      action = ":cnext<CR>";
+    }
   ];
 }
