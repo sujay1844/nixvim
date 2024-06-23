@@ -33,12 +33,12 @@
     }
     {
       mode = "n";
-      key = "[q";
+      key = "<C-k>";
       action = ":cprev<CR>";
     }
     {
       mode = "n";
-      key = "]q";
+      key = "<C-j>";
       action = ":cnext<CR>";
     }
   ];
