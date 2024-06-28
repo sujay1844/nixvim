@@ -6,6 +6,7 @@
         formatting = {
           nixfmt.enable = true;
           prettierd.enable = true;
+          black.enable = true;
         };
       };
     };
