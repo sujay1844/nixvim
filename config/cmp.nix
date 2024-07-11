@@ -36,6 +36,7 @@
           }
           { name = "nvim_lua"; }
           { name = "path"; }
+          { name = "emoji"; }
         ];
         formatting = {
           fields = [ "abbr" "kind" "menu" ];

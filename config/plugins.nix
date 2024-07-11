@@ -11,6 +11,7 @@
     indent-blankline.enable = true;
     neoscroll.enable = true;
     transparent.enable = true;
+    fugitive.enable = true;
 
     oil = {
       enable = true;
