@@ -13,7 +13,11 @@
       settings = {
         snippet.expand =
           # lua
-          "	function(args)\n		require('luasnip').lsp_expand(args.body)\n	end\n";
+          ''
+            function(args)
+              require('luasnip').lsp_expand(args.body)
+            end
+          '';
         sources = [
           { name = "nvim_lsp"; }
           { name = "luasnip"; }
@@ -82,11 +86,16 @@
         mapping = {
           "<CR>" =
             # lua
-            "	cmp.mapping.confirm({\n		behavior = cmp.ConfirmBehavior.Insert,\n		select = true\n	})\n";
+            ''
+              cmp.mapping.confirm({
+                behavior = cmp.ConfirmBehavior.Insert,
+                select = true
+              })
+            '';
           "<Tab>" =
             # lua
             ''
-                function(fallback)
+              function(fallback)
               	if cmp.visible() then
               	  cmp.select_next_item()
               	elseif require("luasnip").expand_or_jumpable() then
@@ -94,12 +103,12 @@
               	else
               	  fallback()
               	end
-                end
+              end
             '';
           "<S-Tab>" =
             # lua
             ''
-                function(fallback)
+              function(fallback)
               	if cmp.visible() then
               	  cmp.select_prev_item()
               	elseif require("luasnip").jumpable(-1) then
@@ -107,7 +116,7 @@
               	else
               	  fallback()
               	end
-                end
+              end
             '';
         };
       };
