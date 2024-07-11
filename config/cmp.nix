@@ -1,5 +1,11 @@
 {
   plugins = {
+    copilot-lua = {
+      enable = true;
+      panel.enabled = false;
+      suggestion.enabled = false;
+    };
+
     luasnip.enable = true;
     friendly-snippets.enable = true;
     cmp-buffer.enable = true;
@@ -8,6 +14,7 @@
     cmp-dap.enable = true;
     cmp-path.enable = true;
     cmp_luasnip.enable = true;
+    copilot-cmp.enable = true;
     cmp = {
       enable = true;
       autoEnableSources = true;
@@ -20,6 +27,7 @@
             end
           '';
         sources = [
+          { name = "copilot"; }
           { name = "nvim_lsp"; }
           { name = "luasnip"; }
           {
