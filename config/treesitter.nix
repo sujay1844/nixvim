@@ -3,7 +3,8 @@
     treesitter = {
       enable = true;
       folding = true;
-      indent = true;
+      settings.indent.enable = true;
+      settings.highlight.enable = true;
     };
     treesitter-context.enable = true;
     treesitter-refactor = {
