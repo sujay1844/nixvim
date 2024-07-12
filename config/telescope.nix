@@ -23,6 +23,11 @@
     }
     {
       mode = "n";
+      key = "<leader>lg";
+      action = "<Cmd>Telescope live_grep<CR>";
+    }
+    {
+      mode = "n";
       key = "<leader>t";
       action = "<Cmd>Telescope builtin<CR>";
     }
