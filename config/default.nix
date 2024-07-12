@@ -9,5 +9,6 @@
     ./plugins.nix
     ./telescope.nix
     ./treesitter.nix
+    ./git.nix
   ];
 }
