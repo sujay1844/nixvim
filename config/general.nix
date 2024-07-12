@@ -64,6 +64,12 @@ in {
       ];
       command = "setlocal tabstop=2 softtabstop=2 shiftwidth=2";
     }
+    {
+      event = [ "TextYankPost" ];
+      pattern = [ "*" ];
+      command =
+        "silent! lua vim.highlight.on_yank({higroup='IncSearch', timeout=100})";
+    }
   ];
   userCommands = {
     Rename = { command = "lua vim.lsp.buf.rename()"; };
