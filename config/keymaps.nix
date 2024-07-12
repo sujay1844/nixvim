@@ -21,5 +21,15 @@
       key = "<C-j>";
       action = ":cnext<CR>";
     }
+    {
+      mode = "x";
+      key = "<leader>p";
+      action = ''"_dP'';
+    }
+    {
+      mode = [ "n" "v" ];
+      key = "<leader>d";
+      action = ''"_d'';
+    }
   ];
 }
