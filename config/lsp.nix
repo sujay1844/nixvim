@@ -39,5 +39,10 @@
       key = "<leader>ca";
       action = "<Cmd>lua vim.lsp.buf.code_action()<CR>";
     }
+    {
+      mode = "i";
+      key = "<C-h>";
+      action = "<Cmd>lua vim.lsp.buf.signature_help()<CR>";
+    }
   ];
 }
