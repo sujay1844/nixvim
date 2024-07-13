@@ -28,4 +28,9 @@
       };
     };
   };
+  keymaps = [{
+    mode = "n";
+    key = "<leader>gs";
+    action = "<cmd>vertical Git<CR>";
+  }];
 }
