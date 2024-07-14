@@ -1,5 +1,6 @@
 {
   colorschemes.base16.enable = true;
+  colorschemes.base16.colorscheme = "catppuccin-mocha";
   plugins = {
     lualine.enable = true;
     nvim-autopairs.enable = true;
