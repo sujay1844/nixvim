@@ -28,6 +28,11 @@
     }
     {
       mode = "n";
+      key = "<leader>cs";
+      action = "<Cmd>Telescope colorscheme<CR>";
+    }
+    {
+      mode = "n";
       key = "<leader>t";
       action = "<Cmd>Telescope builtin<CR>";
     }
