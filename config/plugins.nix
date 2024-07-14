@@ -1,5 +1,5 @@
 {
-  colorschemes.onedark.enable = true;
+  colorschemes.base16.enable = true;
   plugins = {
     lualine.enable = true;
     nvim-autopairs.enable = true;
