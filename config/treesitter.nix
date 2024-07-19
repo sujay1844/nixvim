@@ -18,7 +18,6 @@
         keymaps.smartRename = "grr";
       };
     };
-    lint.enable = true;
     todo-comments.enable = true;
     nvim-colorizer = {
       enable = true;
