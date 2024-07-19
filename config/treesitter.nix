@@ -23,5 +23,6 @@
       enable = true;
       userDefaultOptions = { css = true; };
     };
+    ts-autotag.enable = true;
   };
 }
