@@ -7,7 +7,6 @@
         clangd.enable = true;
         cssls.enable = true;
         elixirls.enable = true;
-        eslint.enable = true;
         html.enable = true;
         jsonls.enable = true;
         lua-ls.enable = true;
