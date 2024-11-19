@@ -7,6 +7,7 @@
     indent-blankline.enable = true;
     neoscroll.enable = true;
     transparent.enable = true;
+    web-devicons.enable = true;
 
     oil = {
       enable = true;
