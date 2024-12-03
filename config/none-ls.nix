@@ -6,6 +6,7 @@
         formatting = {
           nixfmt.enable = true;
           prettierd.enable = true;
+          prettierd.disableTsServerFormatter = true;
           black.enable = true;
         };
       };
