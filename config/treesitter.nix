@@ -19,10 +19,7 @@
       };
     };
     todo-comments.enable = true;
-    nvim-colorizer = {
-      enable = true;
-      userDefaultOptions = { css = true; };
-    };
+    colorizer = { enable = true; };
     ts-autotag.enable = true;
   };
 }
