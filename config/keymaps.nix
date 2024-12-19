@@ -7,9 +7,9 @@
       action = "<Cmd>Oil<CR>";
     }
     {
-      mode = [ "n" "t" ];
+      mode = [ "n" "t" "i" ];
       key = "<C-\\>";
-      action = "<Cmd>ToggleTerm<CR>";
+      action = ''<Cmd>exe v:count1 . "ToggleTerm"<CR>'';
     }
     {
       mode = "n";
