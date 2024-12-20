@@ -10,5 +10,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./git.nix
+    ./supermaven.nix
   ];
 }
