@@ -3,8 +3,6 @@
   extraConfigLua =
     # lua
     ''
-      require("supermaven-nvim").setup({
-        disable_inline_completion = true,
-      })
+      require("supermaven-nvim").setup({})
     '';
 }
