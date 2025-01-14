@@ -6,6 +6,7 @@
         bigfile.enabled = true;
         notifier.enabled = true;
         quickfile.enabled = true;
+        indent.enabled = true;
       };
     };
   };
