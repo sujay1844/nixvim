@@ -11,5 +11,6 @@
     ./treesitter.nix
     ./git.nix
     ./supermaven.nix
+    ./snacks.nix
   ];
 }
