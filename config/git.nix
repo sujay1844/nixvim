@@ -1,7 +1,7 @@
 {
   plugins = {
 
-    fugitive.enable = true;
+    neogit.enable = true;
 
     gitsigns = {
       enable = true;
@@ -31,6 +31,6 @@
   keymaps = [{
     mode = "n";
     key = "<leader>gs";
-    action = "<cmd>vertical Git<CR>";
+    action = "<cmd>vsplit | Neogit kind=replace<CR>";
   }];
 }
